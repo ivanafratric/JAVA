@@ -1,4 +1,4 @@
-package Vjezba01;
+package java01;
 
 public class Vjezba01 {
 
