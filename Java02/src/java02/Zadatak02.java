@@ -10,8 +10,8 @@ public class Zadatak02 {
 				JOptionPane.showInputDialog("Unesi broj"));
 		
 		if (i%2 == 0) {
-			System.out.println("Parni broj");
-		} else { System.out.println("Neparni broj");
+			System.out.println("Broj je paran");
+		} else { System.out.println("Broj je neparan");
 		}
 		
 	}
