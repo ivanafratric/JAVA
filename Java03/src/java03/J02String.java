@@ -33,8 +33,7 @@ public class J02String {
 		System.out.println(Arrays.toString(parametri));
 		
 		System.out.println(parametri[1].charAt(0));
-		
-		
+				
 		
 	}
 
