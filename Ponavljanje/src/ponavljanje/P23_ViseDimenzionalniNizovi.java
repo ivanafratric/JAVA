@@ -16,6 +16,8 @@ public class P23_ViseDimenzionalniNizovi {
 		
 		System.out.println(tablica);
 		
+		int[][][] kocka = new int[10][10][10];
+		
 	}
 
 }
