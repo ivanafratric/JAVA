@@ -32,6 +32,9 @@ public class P21_JednodimenzionalniNizovi {
 		System.out.println(",");
 		System.out.println(vrijednosti[vrijednosti.length-1]);
 		
+		double[] brojevi = new double[5];
+		
+		
 	}
 
 }
