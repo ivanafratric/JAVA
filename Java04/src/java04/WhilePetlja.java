@@ -4,7 +4,7 @@ public class WhilePetlja {
 
 	public static void main(String[] args) {
 
-		//beskonaèna petlja
+		//beskonacna petlja
 		while(true) {
 			break;
 		}
