@@ -4,7 +4,7 @@ public class P26_WhilePetlja {
 
 	public static void main(String[] args) {
 		
-		//beskonaèna petlja
+		//beskonacna petlja
 		while(true) {
 			break;
 		}
@@ -18,11 +18,12 @@ public class P26_WhilePetlja {
 			System.out.println(++i);
 		}
 		
-		//u for petlju se ne mora uæi
+		//u for petlju se ne mora uci
 		for(int t=10;t>10;t++) {
 			System.out.println("Osijek");
 		}
 		
+		//u while petlju se ne mora uci
 		int t=2;
 		while(t>2) {
 			System.out.println("Edunova");
