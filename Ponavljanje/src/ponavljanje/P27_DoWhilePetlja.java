@@ -9,7 +9,9 @@ public class P27_DoWhilePetlja {
 			System.out.println("Osijek");
 		} while (i>10);
 		
-		
+		do {
+			
+		}while(true);
 		
 	}
 
