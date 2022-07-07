@@ -8,15 +8,15 @@ public class P06_DrugiProgram {
 
 		int prviBroj = Integer.parseInt(
 				JOptionPane.showInputDialog("Unesi prvi broj"));
-		
+
 		int drugiBroj = Integer.parseInt(
 				JOptionPane.showInputDialog("Unesi drugi broj"));
-		
+
 		int rezultat = prviBroj + drugiBroj;
-		
+
 		System.out.println(rezultat);
-		
-		
+
+
 	}
 
 }
