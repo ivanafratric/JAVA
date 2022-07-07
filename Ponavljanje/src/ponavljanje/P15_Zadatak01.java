@@ -8,15 +8,15 @@ public class P15_Zadatak01 {
 
 		int i = Integer.parseInt(
 				JOptionPane.showInputDialog("Unesi broj"));
-		
+
 		int j = Integer.parseInt(
 				JOptionPane.showInputDialog("Unesi drugi broj"));
-		
+
 		if (i+j>10) {
 			System.out.println("Osijek");
 		} else {System.out.println("Edunova");
 		}
-		
+
 	}
 
 }

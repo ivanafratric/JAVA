@@ -8,18 +8,18 @@ public class P11_Zadatak03 {
 
 		int i = Integer.parseInt(
 				JOptionPane.showInputDialog("Unesi dvoznamenkasti broj"));
-		
+
 		i%=10;
-		
+
 		System.out.println(i);
-		
+
 		int j = Integer.parseInt(
 				JOptionPane.showInputDialog("Unesi dvoznamenkasti broj")
 				);
 		j/=10;
-		
+
 		System.out.println(j);
-		
+
 	}
 
 }

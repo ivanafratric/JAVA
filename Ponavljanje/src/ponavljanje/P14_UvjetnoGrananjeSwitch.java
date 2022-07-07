@@ -5,7 +5,7 @@ public class P14_UvjetnoGrananjeSwitch {
 	public static void main(String[] args) {
 
 		int ocjenaBrojcano = 4;
-		
+
 		if (ocjenaBrojcano == 2) {
 			System.out.println("Dovoljan (2)");
 		} else if (ocjenaBrojcano == 3) {
@@ -18,7 +18,7 @@ public class P14_UvjetnoGrananjeSwitch {
 			System.out.println("Nedovoljan (1)");
 		} else {System.out.println("Nije ocjena");
 		}
-		
+
 		String ocjena;
 		switch (ocjenaBrojcano) {
 		case 1:
@@ -27,7 +27,7 @@ public class P14_UvjetnoGrananjeSwitch {
 		case 2:
 			ocjena = "Dovoljan (2)";
 			break;
-		case 3: 
+		case 3:
 			ocjena = "Dobar (3)";
 			break;
 		case 4:
@@ -40,7 +40,7 @@ public class P14_UvjetnoGrananjeSwitch {
 			ocjena = "Nije ocjena";
 		}
 		System.out.println(ocjena);
-		
+
 		ocjena = switch (ocjenaBrojcano) {
 		case 1 -> "Nedovoljan (1)";
 		case 2 -> "Dovoljan (2)";
@@ -49,9 +49,9 @@ public class P14_UvjetnoGrananjeSwitch {
 		case 5 -> "Izvrstan (5)";
 		default -> "Nije ocjena";
 		};
-		
+
 		System.out.println(ocjena);
-		
+
 	}
 
 }

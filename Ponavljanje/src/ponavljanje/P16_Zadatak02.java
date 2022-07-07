@@ -8,12 +8,12 @@ public class P16_Zadatak02 {
 
 		int i = Integer.parseInt(
 				JOptionPane.showInputDialog("Unesi broj"));
-		
+
 		if (i % 2 == 0) {
 			System.out.println("Broj je paran");
 		} else {System.out.println("Broj je neparan");
 		}
-		
+
 	}
 
 }

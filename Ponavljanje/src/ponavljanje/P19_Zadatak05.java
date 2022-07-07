@@ -8,10 +8,10 @@ public class P19_Zadatak05 {
 
 		int i = Integer.parseInt(
 				JOptionPane.showInputDialog("Unesi broj"));
-		
+
 		if (i<1 || i>999) {
 			System.out.println("Greska");
-		} else { 
+		} else {
 			if (i<10) {
 				System.out.println(i);
 		} else if (i>=10 && i<100) {
