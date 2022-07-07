@@ -28,6 +28,15 @@ public class Osoba extends Object {
 		this.prezime = prezime;
 	}
 	
-	
+	@Override
+	public String toString() {
+		// return ime + " " + prezime;
+		
+		StringBuilder sb = new StringBuilder();
+		sb.append(ime).append(" ").append(prezime);
+		return sb.toString();
+		
+		
+	}
 
 }

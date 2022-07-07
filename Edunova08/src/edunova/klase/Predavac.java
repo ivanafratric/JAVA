@@ -23,6 +23,10 @@ public class Predavac extends Osoba {
 		this.iban = iban;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return super.toString() + " " + iban;
+
+ 	}
 
 }

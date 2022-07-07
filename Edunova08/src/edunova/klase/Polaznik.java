@@ -4,8 +4,6 @@ public class Polaznik extends Osoba{
 	
 	private String brojUgovora;
 	
-	
-
 	public Polaznik() {
 		super();
 	}
