@@ -1,6 +1,7 @@
 package edunova;
 
 import edunova.klase.Osoba;
+import edunova.klase.OsobaImplementacija;
 import edunova.klase.Polaznik;
 import edunova.klase.Pravokutnik;
 import edunova.klase.Predavac;
@@ -18,11 +19,16 @@ public class Start {
 		
 		System.out.println(p.povrsina());
 		
+		/*
 		Osoba o = new Osoba();
 		o.setIme("Pero");
 		o.setPrezime("Periæ");
 		
 		o = new Osoba ("Maja","Majiæ");
+		*/
+		
+		OsobaImplementacija o = new OsobaImplementacija();
+		o.setIme("Ime");
 		
 		Polaznik polaznik = new Polaznik();
 		
@@ -44,7 +50,8 @@ public class Start {
 		System.out.println(polaznik);
 		System.out.println(predavac);
 		
-		
+		// Osoba osoba = new Osoba();
+
 		
 	}
 

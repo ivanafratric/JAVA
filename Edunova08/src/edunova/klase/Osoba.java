@@ -1,6 +1,6 @@
 package edunova.klase;
 
-public class Osoba extends Object {
+public abstract class Osoba extends Object {
 	
 	private String ime;
 	private String prezime;
