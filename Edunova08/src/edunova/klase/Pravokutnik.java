@@ -5,6 +5,15 @@ public class Pravokutnik {
 	private int sirina;
 	private int visina;
 	
+	public Pravokutnik() {
+		System.out.println("Pozvan konstruktor od pravokutnika");
+	}
+	
+	public Pravokutnik(int sirina, int visina) {
+		this.sirina = sirina;
+		this.visina = visina;
+	}
+
 	public int getSirina() {
 		return sirina;
 	}
